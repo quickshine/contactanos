@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Futura';
+    src: local('Futura Std'), url('../fonts/futura.woff2') format('woff2')
+}
+
+:root {
+    --bs-font-sans-serif: 'Futura', sans-serif; /* Sobreescribe la fuente predeterminada de Bootstrap */
+}
+
+body {
+    font-family: 'Futura', sans-serif !important; /* Aplica la fuente a todo el documento */
+}
+
+h1, h2, h3, h4, h5, h6, p, a, div, span, button, input, textarea, select {
+    font-family: 'Futura', sans-serif !important; /* Aplica la fuente a todos los elementos HTML */
+}
+
+h1 {
+    color: #0099a1;
+}
+
+.btn-enviar{
+    background-color: #0099a1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
